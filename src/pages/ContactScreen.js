@@ -24,7 +24,6 @@ const ContactScreen = () => {
           marginTop: "30px",
           flexDirection: "column",
           justifyContent: "stretch",
-          backgroundColor: "white",
           padding: "20px",
           borderRadius: "8px",
           backgroundColor: "white",
