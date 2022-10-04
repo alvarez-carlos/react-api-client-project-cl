@@ -1,0 +1,58 @@
+
+.trends {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 0.2%;
+  row-gap: 1%;
+}
+
+.gallery-item {
+  /* background-image: url(https://cdn.glitch.com/cb970953-eba4-4aeb-8a02-1626980549a3%2Fthumbnails%2Fnolan-issac-It0DCaCBr40-unsplash.jpg?1629510581822); */
+  color: white;
+  background-size: cover;
+  background-position: center;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-blend-mode: darken;  
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  padding: 4%;  
+  background-color: #f1edc0;
+}
+
+.card-title {
+  width: 60%;
+}
+
+.card-link{
+  font-weight: 700;
+  color:  #414747;
+}
+
+@media screen and (max-width: 480px) {
+  .trends {
+    grid-template-columns: 1fr 1fr;    
+    row-gap: 2px;
+    column-gap: 2px;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1.4%;
+    column-gap: 2%;
+  }  
+
+  .trends .gallery-item{
+    display: none;
+  }
+
+  .trends .gallery-item:nth-child(1),
+  .trends .gallery-item:nth-child(2),
+  .trends .gallery-item:nth-child(3),
+  .trends .gallery-item:nth-child(4){
+    display:flex;
+  }
+}
+

@@ -1,0 +1,175 @@
+.my-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.my-card-left {
+  width: 100%;
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
+.my-card-right {
+  width: 100%;
+  background-color: #d3f1cd;
+  display: flex;
+  justify-content: center;
+}
+
+.my-card-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 4%;
+}
+
+.my-card-title {
+  width: 80%;
+  font-size: 180%;
+  font-weight: 700;
+}
+
+.my-card-paragraph {
+  font-size: 150%;
+}
+
+.my-card-link {
+  font-size: 150%;
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+@media (min-width: 300px) {
+  .my-card-title {
+    width: 95%;
+    font-size: 250%;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 350px) {
+  .my-card-title {
+    width: 95%;
+    font-size: 280%;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 400px) {
+  .my-card-title {
+    width: 85%;
+    font-size: 300%;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 480px) {
+  .my-card-title {
+    width: 70%;
+    font-size: 300%;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 590px) {
+  .my-card-title {
+    width: 65%;
+    font-size: 320%;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 680px) {
+  .my-card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .my-card-title {
+    width: 100%;
+    font-size: 210%;
+    font-weight: 700;
+  }
+
+  .my-card-left {
+    width: 65%;
+    background-size: cover;
+    height: 250px;
+  }
+
+  .my-card-right {
+    width: 35%;
+    background-color: #d3f1cd;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 820px) {
+  .my-card-title {
+    width: 90%;
+    font-size: 230%;
+    font-weight: 700;
+  }
+
+  .my-card-left {
+    width: 65%;
+    background-size: cover;
+    height: 300px;
+  }
+
+  .my-card-right {
+    width: 35%;
+    background-color: #d3f1cd;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1010px) {
+  .my-card-title {
+    width: 80%;
+    font-size: 250%;
+    font-weight: 700;
+  }
+
+  .my-card-left {
+    width: 65%;
+    background-size: cover;
+    height: 300px;
+  }
+
+  .my-card-right {
+    width: 35%;
+    background-color: #d3f1cd;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-card-title {
+    width: 90%;
+    font-size: 350%;
+    font-weight: 700;
+  }
+
+  .my-card-left {
+    width: 65%;
+    background-size: cover;
+    height: 300px;
+  }
+
+  .my-card-right {
+    width: 35%;
+    background-color: #d3f1cd;
+    display: flex;
+    justify-content: center;
+  }
+}

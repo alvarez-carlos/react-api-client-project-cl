@@ -1,0 +1,6 @@
+.wrapper {
+  width: 100%;  
+  display: grid;
+  flex-direction: center;
+  align-items: center;
+}

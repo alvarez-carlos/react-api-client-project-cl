@@ -1,0 +1,18 @@
+.hero-container {
+  display: flex;
+  justify-content: stretch;  
+}
+
+.hero-left {
+  width: 65%;
+  display: flex;
+  background-image: url("https://tallypress.com/wp-content/uploads/2017/07/top-10-furniture-home-decor-stores-kl-selangor.jpeg");    
+  background-position: center;  
+  background-size: cover;  
+  height: 300px;
+}
+
+.hero-right {
+  background-color: #f3d6d8;  
+  width: 35%;
+}
