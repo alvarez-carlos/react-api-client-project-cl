@@ -8,7 +8,7 @@ const CollectionsScreen = () => {
   const { collections, fetchAllCollections } = useCollections();
   useEffect(() => {
     fetchAllCollections();
-  }, []);
+  }, [fetchAllCollections]);
 
   const renderCollections = () => {
     if (collections.length === 0) return <h1>No Trends Found!</h1>;

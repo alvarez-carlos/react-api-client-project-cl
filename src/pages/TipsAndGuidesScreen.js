@@ -12,7 +12,7 @@ const TipsAndGuidesScreen = () => {
 
   useEffect(() => {
     fetchAllAbouts();
-  }, []);
+  }, [fetchAllAbouts]);
 
   const renderAbouts = () => {
     if (abouts.length === 0) return <h1>No Trends Found!</h1>;

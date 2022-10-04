@@ -9,7 +9,7 @@ const TrendsScreen = () => {
 
   useEffect(() => {
     fetchAllTrends();
-  }, []);
+  }, [fetchAllTrends]);
 
   const renderTrends = () => {
     if (trends.length === 0) return <h1>No Trends Found!</h1>;
