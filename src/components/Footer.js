@@ -46,7 +46,7 @@ const Footer = () => {
               <p className="footer-details">tel:+(507)314-7709</p>
               <p className="footer-details">
                 <Link
-                  to="javascript:void(0)"
+                  to="#"
                   onClick={() =>
                     (window.location = "mailto:info@tiendaconcepslife.com")
                   }

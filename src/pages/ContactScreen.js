@@ -87,7 +87,6 @@ const ContactScreen = () => {
           backgroundColor: "white",
           padding: "20px",
           borderRadius: "8px",
-          backgroundColor: "white",
           fontWeight: "700",
           boxShadow: "2px 2px 2px 1px rgba(0, 0, 0, 0.2)",
         }}
