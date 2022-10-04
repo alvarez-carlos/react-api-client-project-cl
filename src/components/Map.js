@@ -11,7 +11,7 @@ const Map = ({ fullScreen }) => {
 
   useEffect(() => {
     fetchAllStores();
-  }, [fullScreen]);
+  }, [fetchAllStores]);
 
   if (stores.length === 0) {
     return (

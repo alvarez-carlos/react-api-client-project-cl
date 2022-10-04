@@ -9,7 +9,7 @@ const About = () => {
 
   useEffect(() => {
     fetchAllAbouts();
-  }, []);
+  }, [fetchAllAbouts]);
 
   return (
     <div className="about-container box">

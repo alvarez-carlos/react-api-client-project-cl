@@ -65,7 +65,7 @@ const Footer = () => {
 
           <div className="footer-details">
             <Link to="/">
-              <img src={Logo} width="25%" height="100%" />
+              <img src={Logo} alt='Concepts Life Log' width="25%" height="100%" />
             </Link>
           </div>
 

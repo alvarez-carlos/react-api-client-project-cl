@@ -12,7 +12,7 @@ const Trends = () => {
   
   useEffect(() => {
     fetchAllTrends();
-  }, []);
+  }, [fetchAllTrends]);
 
   return (
     <div className="trends-container box">

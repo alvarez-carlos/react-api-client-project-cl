@@ -12,7 +12,7 @@ const Header = () => {
         <div className="header-left-container">
           <div className="logo">
             <Link to="/">
-              <img src={Logo} width="100%" height="100%" />
+              <img src={Logo} alt='Concepts Life Logo' width="100%" height="100%" />
             </Link>
           </div>
           <div>
