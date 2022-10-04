@@ -1,7 +1,7 @@
 .about-container {
   width: 80%;  
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   column-gap: 2%;
   row-gap: 1%;
 }
