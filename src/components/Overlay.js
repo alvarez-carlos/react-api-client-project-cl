@@ -12,7 +12,7 @@ const Overlay = () => {
           Officia sint excepteur eu est magna aliqua nulla excepteur adipisicing
           sunt cupidatat fugiat velit.
         </p>
-        <Link to="#" className="overlay-link app-link">
+        <Link to="/trends" className="overlay-link app-link">
           discover this trend
         </Link>
       </div>
