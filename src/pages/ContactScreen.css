@@ -14,14 +14,14 @@
 
 @media (min-width: 480){
     .my-form{
-        width: 60%;
+        width: 50%;
     }
 }
 
 
 @media (min-width: 600){
     .my-form{
-        width: 65%;
+        width: 40%;
     }
 }
 
@@ -29,21 +29,21 @@
 
 @media (min-width: 800){
     .my-form{
-        width: 60%;
+        width: 38%;
     }
 }
 
 
 @media (min-width: 900){
     .my-form{
-        width: 50%;
+        width: 35%;
     }
 }
 
 
 @media (min-width: 1200){
     .my-form{
-        width: 40%;
+        width: 30%;
     }
 }
 
