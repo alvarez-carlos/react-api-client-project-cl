@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+import './ContactScreen.css'
+
 const ContactScreen = () => {
   const [submitted, setSubmitted] = useState(false);
 
@@ -17,19 +19,7 @@ const ContactScreen = () => {
       }}
     >
       <form
-        style={{
-          width: "40%",
-          display: "flex",
-          marginBottom: "60px",
-          marginTop: "30px",
-          flexDirection: "column",
-          justifyContent: "stretch",
-          padding: "20px",
-          borderRadius: "8px",
-          backgroundColor: "white",
-          fontWeight: "700",
-          boxShadow: "2px 2px 2px 1px rgba(0, 0, 0, 0.2)",
-        }}
+        className="my-form"
         onSubmit={submitHandler}
       >
         <div className="form-group">
